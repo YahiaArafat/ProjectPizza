@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+   
+    /* naaaaaaaaav*/
+    body{
+        height: 5000px;
+    }
+    
+    html{
+        --ColorWhite: #ffffff;
+        --fontSize: 14px;
+    }
+    
+
+    /* start navbar  */
+    .brand-logo{
+        height: 184px;
+        transform: translate(-185%);
+    }
+
+   
+    .container{
+        font-size: var(--fontSize);
+        font-size: 1rem;
+        font-weight: 400;
+        text-transform: capitalize;
+        transform: translate(30px);
+      
+    }
+
+    .contenarRight{
+        transform: translate(-90%); 
+    }
+    
+    .nav-link{
+        color: #ffffff;
+    }
+
+    .leftNav{
+        text-decoration: none;
+        color: var(--ColorWhite);
+        transform: translate(15%);
+
+    }
+
+    .contenarRight .Butt-nav{
+        display: block;
+    background-color: #ca0808;
+    width: fit-content;
+    font-size: 0.1em;
+    line-height: 1.3em;
+    white-space: 10px;
+    padding: 14px 26px;
+    font-size: 11px;
+    border-radius: 50px;
+    text-transform: capitalize;
+    font-weight: 500;
+
+    }
+
+    .Home{
+        color: #fac122;
+    }
+
+    .nav-link:hover{
+        color: #fac122;
+
+    }
+    .nav-link:active{
+        color: #fac122;
+
+    }
+
+    .dropdown-menu{
+        background-color: #fac122;
+    }
+
+  
+    /* end navbar  */
+
+    
+       /* Open Heder  */
+
+    
+    .Heder-content{
+        background-image: url("../img/1111.jpg");
+        height: 100vh;
+        background-size: cover;
+        background-position: 0 -80px
+        ;
+    
+    }
+
+    .heder-content-item{
+        padding-top: 350px ;
+        text-align: center;
+    }
+
+    .main-h3{
+        color: #fac122;
+        font-size: 53px;
+        font-family: sans-serif;
+    }
+
+    .maim-h1{
+        color: #ffffff;
+        font-size: 80px;
+        font-family: sans-serif;
+        text-transform: capitalize;
+
+    }
+
+.link-main{
+    text-decoration: none;
+    color: #ffffff;
+    display: block;
+    background-color: #fac122;
+    width: fit-content;
+    margin: 30px auto;
+    padding: 17.6px 29.7px;
+    font-size: 11px;
+    border-radius: 50px;
+    text-transform: capitalize;
+    font-weight:bold;
+
+}
+
+.Heder-content .overly{
+    background-color: rgba(0, 0,0,0.5);
+    height: 100%;
+    text-transform: capitalize;
+
+}
+
+.link-main:hover{
+
+    color: #ca0808;
+    font-weight:bold;
+}
+
+       /* End Heder  */
+
+
+
+
+
